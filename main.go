@@ -1,8 +1,13 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
+	"github.com/BottleneckStudio/HiPOS/models"
+)
 
 func main() {
-  fmt.Println("vim-go")
+	hello := models.Hello()
+
+	fmt.Println(hello)
 }
